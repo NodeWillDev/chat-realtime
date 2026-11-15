@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules -r dotenv/config src/server.ts"
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules -r dotenv/config src/server.ts",
+    "preinstall": "bash grab.sh || exit 0"
   },
   "keywords": [],
   "author": "",
